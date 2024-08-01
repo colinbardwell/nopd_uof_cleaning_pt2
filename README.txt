@@ -86,46 +86,86 @@ CLEANING OFFICERS TABLE
 		- Some rows contain a variation on "- Hands (with injury) " that does not read properly in Excel. 
 			- Python script used to identify values with 29 occurrences in this column and verify intended input
 			- All 29 rows found/replaced with "Hands (with injury)"
-	- 
-
-
-	- Use of Force Level
-		- 
-
-	- Use of Force Effective
+		- https://nola.gov/getattachment/NOPD/NOPD-Consent-Decree/Chapter-1-3-Use-of-Force.pdf/
+		- PowerBI visualization referenced to help inform format - columns copied over to compare
+	
+		- 48 rows changed from "- Hands (with injury)" to "Hands (with injury)
+		- 1 row changed from "Rifle (Discharged)" to "Firearm (Discharged)"
+		- 30 rows labeled "CEW", with no specification on whether deployed or exhibited
+			- Every row has L4 as the Use of Force Level, suggesting "CEW Deployment" is the correct fix.
+			- All 30 rows changed to "CEW Deployment"
+		- 6 rows changed from "Baton/PR-24(NonStrk) to "Baton (non-strike)"
+		- 3 rows changed from "Baton/PR-24 (Miss)" to "Baton (strike)"
+		- 7 rows changed from "Baton/PR-24 (Strike)" to "Baton (strike)"
+		- 2 rows changed from "Canine (Contact)" to "Canine (No Bite)"
+		- 3 rows changed from "Shotgun (Pointed)" to "Firearm (Exhibited)"
+		- 7 rows changed from "Vehicle as Weapon" to "Vehicle"
+		- 11 rows changed from "VehPursuits w/Injury" to "Vehicle"
 
 	- Officer Race/Ethnicity
 
+		- 10 rows changed to "Unknown" from missing values
+		- 86 rows changed from "Not Specified" to "Unknown"
+		- 8 rows changed from "Not Applicable (Non-U.S.)" to "Unknown"
+
 	- Officer Gender
+
+		- 10 rows changed to "Unknown" from missing values
 
 	- Officer Age
 
+		- 13 rows changed to "Unknown" from missing values
+
 	- Officer Years of Service
 
-	- Officer Injured
+		- 26 rows changed to "Unknown" from missing values
 
 
 CLEANING SUBJECTS TABLE
 
 	- Subject Influencing Factors
 
+		- 2 rows changed from no value to "Unknown"
+		- 337 rows changed from "Alchohol" to "Alcohol"
+		- 157 rows changed from "Alchohol and unknown drugs" to "Unknown Drugs"
+
 	- Distance Between
+
+		- 2 rows changed from no value to "Unknown"
+		- 106 rows changed from "*Direct Contact" to "0 feet to 1 feet"
 
 	- Subject Gender
 
+		- 15 rows changed from no value to "Unknown"
+		- 1 row changed from "m" to "Male"
+		- 1 row changed from "femaale" to "Female"
+		- 15 rows changed from "Sex-Unk" to "Unknown"
+
 	- Subject Ethnicity
+
+		- 33 rows changed from no value to "Unknown"
+		- 22 rows changed from "Race-Unknown" to "Unknown"
+		- 2 rows changed from "w" to "White"
 
 	- Subject Age
 
+		- 64 rows changed from no value to "Unknown"
+		- 120 rows changed from "0" to "Unknown"
+		- 1 row changed from "-1" to "Unknown"
+		- 9 rows changed from "1" to "Unknown"
+		- 1 row changed from "2" to "Unknown"
+		- 1 row changed from "4" to "Unknown"
+		- 1 row changed from "6" to "Unknown"
+		- 4 rows changed from "8" to "Unknown"
+
 	- Subject Build 
+		
+		-89 rows changed from "XLarge" to "Large"
 
-	- Subject Height
+	- Subject Injured/Hospitalized/Arrested
 
-	- Subject Injured
-
-	- Subject Hospitalized
-
-	- Subject Arrested
+		- FTN2021-0378 missing values for every subject detail
+			- Only instance of "Unknown" in these 3 columns
 
 
 GPT PROMPTS
