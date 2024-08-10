@@ -146,6 +146,7 @@ CLEANING SUBJECTS TABLE
 		- 33 rows changed from no value to "Unknown"
 		- 22 rows changed from "Race-Unknown" to "Unknown"
 		- 2 rows changed from "w" to "White"
+		- 74 rows changed from "black" to "Black"
 
 	- Subject Age
 
@@ -166,6 +167,11 @@ CLEANING SUBJECTS TABLE
 
 		- FTN2021-0378 missing values for every subject detail
 			- Only instance of "Unknown" in these 3 columns
+
+CLEANING INCIDENTS TABLE
+
+	- Shift
+		-921 rows changed from "Unknown Shift Hours" to "Unknown"
 
 
 GPT PROMPTS
